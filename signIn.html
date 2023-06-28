@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reward</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- js -->
+    <script src="./js/custom.js"></script>
+
+    <!-- bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap5 -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- for location  starts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <my-header></my-header>
+
+    <main>
+        <section id="signIn-id">
+
+            <div id="left-signIn-div">
+
+                <img class="left-signIn-img" src="./image/logo/sin5.png">
+            </div>
+            <!-- signUp -->
+            <div id="right-signIn-div " class="sing-id " style="opacity: 0;pointer-events: auto;">
+                <div id="signInDiv">
+                    <form action="#">
+                        <h5>SingUP</h5>
+
+                        <div class="feild ">
+                            <input type="email" placeholder="Email" class="input" required>
+                        </div>
+                        <div class="feild">
+                            <input type="Password" id="passwordId" placeholder="Password" class="Password pas1" required
+                                minlength="6">
+                            <i class="bi bi-eye-slash eye-icon"></i>
+
+                        </div>
+                        <div class="feild">
+                            <input type="Password" id="passwordId" placeholder="Confirm Password" class="Password pas2"
+                                required minlength="6">
+                            <i class="bi bi-eye-slash eye-icon"></i>
+                        </div>
+                        <div class="text-content-pass" style=" color: coral;"></div>
+                        <div class="from-link">
+                            <a href="#" class="forget-Password">Forget Password</a>
+                        </div>
+                        <div class="feild button-feild">
+                            <button>LOGIN</button>
+                        </div>
+
+                        <div class="from-link">
+                            <span>Already have an account?<a href="#" class="login-link"> Login</a>
+                            </span>
+                        </div>
+                        <div class="line ">
+                            <div class="line-part"></div>
+                            <div class="or">Or</div>
+                            <div class="line-part"></div>
+
+                        </div>
+                        <div class="media-options ">
+                            <a href="#" class="feild facebook"><img class=" facebook-icon"
+                                    src="./image/logo/facebook.png" style="width: 60px; height: 63px;"></img><span>Login
+                                    with
+                                    FACEBOOK</span></a>
+
+                        </div>
+                        <div class="media-options2">
+                            <a href="#" class="feild facebook"><img class=" google-icon" src="./image/logo/search.png"
+                                    style="width: 40px; height: 40px; margin-left:15px ; "></img><span>Login
+                                    with
+                                    GOOGLE</span></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- login -->
+            <div id="right-signIn-div  " class="log-id " style="opacity: 1;   pointer-events: auto;">
+                <div id="signInDiv">
+                    <form action="#">
+                        <h5>Login</h5>
+
+                        <div class="feild ">
+                            <input type="email" placeholder="Email" class="input" required>
+                        </div>
+                        <div class="feild">
+                            <input type="Password" id="passwordId" placeholder="Password" class="Password" required
+                                minlength="6">
+                            <i class="bi bi-eye-slash eye-icon"></i>
+                        </div>
+                        <div class="from-link">
+                            <a href="#" class="forget-Password">Forget Password</a>
+                        </div>
+                        <div class="feild button-feild">
+                            <button>LOGIN</button>
+                        </div>
+
+                        <div class="from-link">
+                            <span>Already have an account?<a href="#" class=" signup-link"> SignUp</a>
+                            </span>
+                        </div>
+                        <div class="line ">
+                            <div class="line-part"></div>
+                            <div class="or">Or</div>
+                            <div class="line-part"></div>
+
+                        </div>
+                        <div class="media-options ">
+                            <a href="#" class="feild facebook"><img class=" facebook-icon"
+                                    src="./image/logo/facebook.png" style="width: 60px; height: 63px;"></img><span>Login
+                                    with
+                                    FACEBOOK</span></a>
+
+                        </div>
+                        <div class="media-options2">
+                            <a href="#" class="feild facebook"><img class=" google-icon" src="./image/logo/search.png"
+                                    style="width: 40px; height: 40px; margin-left:15px ; "></img><span>Login
+                                    with
+                                    GOOGLE</span></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- footer stars -->
+    <my-footer></my-footer>
+    <!-- footer ends -->
+
+    <script src="./js/new.js"></script>
+    <script src="./js/order.js"> </script>
+    <script src="./js/menu.js"> </script>
+    <script src="./js/index.js"> </script>
+    <script src="./js/rewards.js"> </script>
+
+</body>
+
+</html>

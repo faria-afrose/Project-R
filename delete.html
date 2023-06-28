@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reward</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- js -->
+    <script src="./js/custom.js"></script>
+
+    <!-- bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- for location  starts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- for google map -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyCfer0LgYhVJj6OIj1pAN4MjarfTwbJ02k"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <my-header></my-header>
+
+
+    <section id="oder-location ">
+
+        <div class="order-cont" style="background-color: crimson;">
+            <div class="delete-div">
+                <div class=" row " style="width: 80%; ">
+                    <div class="col-md-12">
+                        <p style="font-size: 25px;  color:#7C7C7C  ;">
+                        <h1 style="text-align: center;">Select a location</h1>
+                        </p>
+
+                    </div>
+                    <div class="form_div row ">
+                        <div class="col-lg-9">
+                            <div class="form_input_div text-start">
+                                <input type="text" class="form-control" id="search_input"
+                                    placeholder="Enter your address..."
+                                    style=" height: 64px; width: 100%;border-radius: 12px;">
+
+                                <div class="icon-order">
+                                    <div>
+                                        <a>
+                                            <img src="./image/logo/close.png" alt="img"
+                                                style=" width: 17px; height:17px; font-weight: 900; margin: 15px ;text-align: center; background-color: transparent;  ">
+                                        </a>
+                                    </div>
+                                    <div class="">
+                                        <div class="icon-order-2"
+                                            style=" width: 62px; height:62px;  text-align: center; border-radius: 12px;">
+                                            <img class="" src="./image/logo/marking.png" alt="img"
+                                                style="width: 33px; height:33px; border-radius: 50%; ">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <button class=" loc-button ms-lg-4 mt-lg-0 mt-4">Confirm Location<i class=""
+                                    aria-hidden="true"></i>
+
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-12 text-center " class="current-location">
+                        <img src="./image/review/3196533.jpg" alt="img"
+                            style=" width: 300px; height:300px; border-radius: 50%;">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class='order-banner'>
+                <img src="https://cdn.pixabay.com/photo/2019/10/10/18/12/service-4540203__480.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- footer stars -->
+    <my-footer></my-footer>
+    <!-- footer ends -->
+
+
+
+
+
+
+    <script src="./js/index.js"> </script>
+    <script src=" ./js/new.js"></script>
+    <script src="./js/order.js"> </script>
+</body>
+
+</html>
