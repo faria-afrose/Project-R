@@ -1,0 +1,28 @@
+@media (min-width: 1024px) {
+  .menu-div {
+    height: 200px;
+  }
+  .div-popup {
+    position: absolute;
+    right: 84px;
+  }
+  .menu-div {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 991px) {
+  .menu-div {
+    height: 200px;
+  }
+}
+@media (max-width: 767px) {
+  .toggle-btn {
+    font-size: 11px;
+  }
+}
+@media (max-width: 330px) {
+  .toggle-btn {
+    font-size: smaller;
+  }
+}
