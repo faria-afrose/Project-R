@@ -1084,16 +1084,16 @@ footer p {
   margin-right: 30px;
   height: 80px;
   margin-top: -8px;
-  animation: moveLeftToRight 2s infinite alternate;
-}
-@keyframes moveLeftToRight {
+/*    animation: moveLeftToRight 2s infinite alternate;*/
+}  
+/* @keyframes moveLeftToRight {
   0% {
     transform: translateX(-40%);
   }
   110% {
     transform: translateX(80%);
   }
-}
+} */
 
 .cookieBody button {
   width: fit-content;
