@@ -31,8 +31,36 @@
 
     <div class="contaner">
         <!-- header starts -->
-        <my-header></my-header>
-        <!-- header ends -->
+        <header>
+            <nav class=" navbar  navbar-expand-lg navigation-wrap  ">
+                <div class="container">
+                    <a class=navbar-brand href="#">
+                        <img class="logo-img" src="./image/logo/pngimg.com - burger_king_PNG6.png" alt="img"
+                            style="width: 70px;">
+                    </a>
+                    <button class='navbar-toggler' title="button" style="color: #AB1C00;" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarText" aria-expanded="false"
+                        area-controls="navbarText" area-level="toggle navigation"><i
+                            class="fas fa-stream navbar-toggler-icon "></i></button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./menu.html">Menu</a></li>
+                            <li class="nav-item"><a class="nav-link" href="offer.html">Offers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="reward.html">Rewards</a></li>
+
+                            <li><button class="main-btn" onclick='signUpHBtn()'>Sign up</button></li>
+                            <li> <button class="chart" id="chart-button" onclick="chartClick()"
+                                    style='width:20px; background-color:transparent; border:none;  padding-right:0px;padding-left:50px;'>
+                                    <img class="logo" src="./image/logo/cart6.png" alt="img">
+                                    <p id="count" class='quantity'>0</p>
+                                </button> </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </header> <!-- header ends -->
         <main>
             <!-- <--home start-->
             <section id="home-id" class="pb-2">
