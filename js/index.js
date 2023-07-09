@@ -4,7 +4,11 @@ window.addEventListener("scroll", function () {
   header.classList.toggle("sticky");
 });
 //header ends
-
+//singUp
+function signUpHBtn() {
+  window.location.href = "signIn.html";
+}
+//singUp ends
 const cookeDiv = document.getElementById("cookieWraps");
 const decline = document.getElementById("decline");
 const accept = document.getElementById("cookieWraps-b2");
