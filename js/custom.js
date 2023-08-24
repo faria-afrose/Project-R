@@ -18,7 +18,7 @@ class MyHeader extends HTMLElement {
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                             <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="./menu.html">Menu</a></li>
-                            // <li class="nav-item"><a class="nav-link" href="offer.html">Offers</a></li>
+                            
                             <li class="nav-item"><a class="nav-link" href="reward.html">Rewards</a></li>
 
                             <li><button class="main-btn" onclick='signupFun()'>Sign up</button></li>
