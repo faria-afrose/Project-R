@@ -23,7 +23,7 @@ class MyHeader extends HTMLElement {
 
                             <li><button class="main-btn" onclick='signupFun()'>Sign up</button></li>
                                 <li> <button class="chart" id="chart-button" onclick="chartClick()"
-            style='width:20px; background-color:transparent; border:none;  padding-right:100px;padding-left:50px;'>
+            style='width:20px; background-color:transparent; border:none;  padding-right:150px;padding-left:50px;'>
             <img class="logo" src="./image/logo/cart6.png" alt="img">
             <p id="count" class='quantity'>0</p>
         </button> </li>
