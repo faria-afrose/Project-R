@@ -548,7 +548,8 @@ footer p {
   background-color: white;
 }
 #card-inside {
-  height: 1300vh;
+  //modify 7-dec
+  height: 1400vh;
   width: 100%;
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color: white;
